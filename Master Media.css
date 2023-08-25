@@ -1,0 +1,459 @@
+body{
+    background-color:wheat;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden ;
+}
+/*--------navbar--------*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    background-color: aqua;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+}
+.navbar li{
+    list-style-type: none;
+    margin: 20px;}
+.div1 i {
+    font-size: 22px;
+    color: red;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+.navbar li img{
+    width: 200px;
+    margin-right: 200px;
+}
+#downloadcv a{
+    background-color: black;
+    color: White;
+    padding: 15px;
+}
+#downloadcv a:hover{
+    background-color: white;
+    color: blue;
+    border: 1px Solid black;
+
+}
+.img1{
+    display: none;
+}
+@media(max-width:415px)
+{
+    .navbar{
+        margin-top: -600px;
+
+    }
+    .img1{
+        display: block;
+        margin: 15px;
+    }
+    .lable1{
+        display: block;
+        margin-top: 20px;
+        background-color: aqua;
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+    }
+    #input1:checked~.navbar{
+        display: block;
+        margin-top: 20px;
+        background-color: aqua;
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        transition: margin-top 2s;
+
+
+    }
+    .down a{
+        padding-left: 0px;
+    }
+}
+/*--------landing--------*/
+.landing{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: gold;
+
+}
+.div1{
+    margin-top: 100px;
+
+}
+.div2 img{
+    width: 300px;
+    margin-left: 200px;
+}
+.say{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin-right: 50px;
+}
+.say:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+@media(max-width :415px)
+{
+    .landing{
+        display: block;
+        justify-content: center;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: gold;
+    
+    }
+    .div2 img{
+        width: 300px;
+        margin-left: 200px;
+
+}}
+/*--------MY CLINT--------*/
+.myclient{
+    background-color: navy;
+
+}
+
+.myclient div{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    padding: 30px 0px 30px 0px;
+}
+.myclient div span img{
+    margin: 0px 40px 0px 40px;
+}
+@media(max-width:415px)
+{
+    .myclient div{
+        display: block;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+        padding: 30px 0px 30px 0px;
+
+}}
+
+
+/*------- Dedication--------*/
+.dedication{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    overflow: hidden!important;
+    background-color: antiquewhite;
+}
+.dedication div{
+    padding: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-left: 2px solid black;
+}
+.dedication div img{
+    width: 80px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+.b1{
+    border: none !important;
+}
+.dedication div span{
+    font-size: 20px;
+}
+@media(max-width:415px){
+    .dedication{
+    display: block;
+    justify-content: center;
+    padding: 80px;
+    overflow: hidden!important;
+    background-color: antiquewhite;}
+   
+}
+/*--------MY Skills --------*/
+
+
+.Mainskill{
+
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    background-image: url(cool2.jpg);
+}
+.Mainskill div{
+    margin: 40px;
+}
+.ulskill
+{
+    display: flex;
+}
+.ulup{
+    background-image:none;
+
+}
+.ulskill li{
+    list-style-type: none;
+    border: 0px solid rebeccapurple;
+    color: yellow;
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+@media(max-width:415px){
+.Mainskill{
+ 
+    display: block;
+    justify-content: center;
+    color: yellow;
+    background-image: url(cool2.jpg);
+}}
+/*--------About --------*/
+.year{
+    width: 350px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 600px;
+    left: 100px;
+    background-color: aliceblue;
+}
+.year1{
+    color: red;
+    font-size: 70px;
+    font-weight: 200;
+    margin-top: 15px;
+}
+.year2{
+    color: solid black;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.about{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 60px 150px 50px 100px;
+    overflow-x:hiddden;
+}
+.about div{
+    margin: 02px 60px 5px 60px;
+
+}
+.about div p{
+    font-size: 20px;
+}
+.about div h1{
+    font-size: 60px;
+    color:orangered;
+}
+
+.hire{
+background-color: black;
+    color : white;
+    padding: 15px;
+    margin-right: 50px;
+}
+.hire:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+/*--------five --------*/
+.five{
+    display: flex;
+
+}
+five{
+   border-radius: 15px;
+    width: 49%;
+    overflow: hidden;
+    margin: 2%;
+}
+.five div img{
+width: 95%;
+}
+.five div img:hover{
+    scale: 1.2;
+    transition: scale 0.5s ease-out;
+}
+@media(max-width :415px){
+.five{
+    display: block;
+}
+}
+
+/*--------FAQ --------*/
+.faq1{
+    width: 700px;
+    background-color:black;
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+    margin: 1%;
+}
+.faq1 span{
+    background-color:white;
+    color: black;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+.faq1a{
+    width: 700px;
+    background-color: black;
+    padding: 40px;
+    font-size: white;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+}
+#check1:checked~.faq1{
+    display: flex;
+    transition: display 5s ease-out;
+}
+@media(max-width:415px){
+    .faq1{
+        display: block;
+        width: 700px;
+        background-color:black;
+        padding: 40px;
+        color: white;
+        font-size: 30px;
+        margin: 1%;
+    
+
+}}
+/*--------Blosgs --------*/
+.myblog{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.myblog div{
+    margin: 20px;
+
+}
+.blog1{
+    border-bottom: 2px solid blue;
+    border-bottom-color: slategray;
+
+}
+.blog{
+    width: 300px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.blog img{
+    width: 300px;
+}
+
+.blog1 img:hover{
+    width: 300px;
+    scale: 1.4;
+    transition: scale 3s ease-out;
+
+}
+@media(max-width:415px) {
+.myblog{
+    display: block;
+    justify-content : center;
+    padding: 60px;
+}
+}
+
+/*--------Forms --------*/
+.Contact {
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 40px;
+    justify-content: center;
+}
+
+input[type=text]{
+    padding: 20px;
+    font-size: 20px;
+}
+input[type=email]
+{
+    padding: 20px;
+    font-size: 20px;
+}
+.contact1
+{
+    margin: 100px;
+}
+.contact2{
+    margin: 100px;
+    background-color: white;
+    padding: 80px;
+}
+.contact2{
+    outline: none;
+    border: none;
+}
+.contact2{
+    margin: 100px;
+    background-color: red;
+    padding: 30px;
+
+}
+.contact2 div {
+padding: 20px 200px 20px 60px;
+margin: 20px;
+border: 2px solid rgb(red, green, blue);
+}
+
+.contact2 div input{
+    outline:none;
+    border: none;
+    background: transparent;
+    height: 50px;
+}
+.contact2 div input ::placeholder{
+font-size: 20px;
+}
+.contact2 button{
+    padding: 20px 160px 20px 160px;
+
+}
+.contact2 div i{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 20px;
+}
+.org img{
+    width: 150px;
+    padding-left: -80px;
+}
+@media(max-width:415px) {
+    
+}
+.contact{
+    display: block;
+    justify-content: center;
+    background-image: url(cool.jpg);
+    padding: 40px;
+}
+
